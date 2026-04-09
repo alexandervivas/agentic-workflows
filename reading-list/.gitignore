@@ -1,0 +1,44 @@
+# Maven build output and transient Maven files
+target/
+.mvn/timing.properties
+dependency-reduced-pom.xml
+
+# IntelliJ IDEA and common IDE metadata
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+.vscode/
+.classpath
+.project
+.settings/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Logs and runtime artifacts
+*.log
+logs/
+
+# Environment and local overrides
+.env
+.env.*
+*.local
+.mvn
+
+# Java temp/diagnostic files
+hs_err_pid*
+replay_pid*
+
+# H2 local file-based databases (if used)
+*.mv.db
+*.trace.db
+*.h2.db
+
+# Editor and shell temp files
+*.swp
+*.swo
+*~
+*.tmp
