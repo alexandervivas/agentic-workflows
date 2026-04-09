@@ -1,7 +1,7 @@
 ---
 description: Writes and runs JUnit 5 tests for Java code, mapped to OpenSpec task IDs
 mode: subagent
-model: amazon-bedrock/anthropic.claude-3-5-sonnet-20241022-v2:0
+model: amazon-bedrock/anthropic.claude-sonnet-4-6
 temperature: 0.3
 permission:
   edit: allow

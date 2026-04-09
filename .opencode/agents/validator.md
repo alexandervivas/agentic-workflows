@@ -1,7 +1,7 @@
 ---
 description: Validates Java implementation against OpenSpec specs/. Returns PASS, PARTIAL, or FAIL with unmet spec items. Final gate before archiving.
 mode: subagent
-model: amazon-bedrock/anthropic.claude-3-haiku-20240307-v1:0
+model: amazon-bedrock/anthropic.claude-haiku-4-5-20251001-v1:0
 temperature: 0.1
 permission:
   edit: deny

@@ -1,7 +1,7 @@
 ---
 description: Reviews Java code for quality, security and correctness. Emits structured findings with severity. Max 3 retry attempts before escalating to orchestrator.
 mode: subagent
-model: amazon-bedrock/anthropic.claude-3-opus-20240229-v1:0
+model: amazon-bedrock/anthropic.claude-opus-4-6-v1
 temperature: 0.1
 steps: 3
 permission:

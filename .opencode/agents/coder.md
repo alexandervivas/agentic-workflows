@@ -1,7 +1,7 @@
 ---
 description: Implements Java features from OpenSpec tasks.md, anchored to specs/
 mode: subagent
-model: amazon-bedrock/anthropic.claude-3-5-sonnet-20241022-v2:0
+model: amazon-bedrock/anthropic.claude-sonnet-4-6
 temperature: 0.3
 permission:
   edit: allow
