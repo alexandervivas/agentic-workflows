@@ -1,9 +1,9 @@
 ## 1. Domain Model
 
-- [ ] 1.1 Create `BookStatus` enum with values UNREAD, READING, FINISHED
-- [ ] 1.2 Create `Book` JPA entity with fields: id (UUID), title, author, status, addedAt
-- [ ] 1.3 Create `BookRequest` DTO with Bean Validation annotations (@NotBlank for title and author)
-- [ ] 1.4 Create `BookRepository` extending JpaRepository with findAllByOrderByAddedAtDesc method
+- [x] 1.1 Create `BookStatus` enum with values UNREAD, READING, FINISHED
+- [x] 1.2 Create `Book` JPA entity with fields: id (UUID), title, author, status, addedAt
+- [x] 1.3 Create `BookRequest` DTO with Bean Validation annotations (@NotBlank for title and author)
+- [x] 1.4 Create `BookRepository` extending JpaRepository with findAllByOrderByAddedAtDesc method
 
 ## 2. Service Layer
 
